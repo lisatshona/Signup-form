@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!-------------------------------------------Form as my landing page starts here---------------------------------------------------------->    
     <div class="registration-form">
         <h1>Registration Form</h1>
         <form action="webpage.html" method="post">
@@ -26,5 +27,35 @@
     </div>
             
     </form>
+<script>
+// Variables
+    let fullName;
+    let userName;
+    let email;
+    let password;
+
+// Array to store user data
+    let users = [];
+
+// Function to handle form submission
+    function registerUser() {
+        fullName = document.getElementById('fullname').value;
+        userName = document.getElementById('username').value;
+        email = document.getElementById('email').value;
+        password = document.getElementById('password').value;
+
+// Add user data to the array
+    users.push({
+            fullName: fullName,
+            userName: userName,
+            email: email,
+            password: password
+            });
+
+// Logging user data (for demonstration)
+    console.log(users);
+
+}
+</script>
 </body>
 </html>
