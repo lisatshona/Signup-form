@@ -1,0 +1,202 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: black;
+}
+
+.rounded-image {
+    border-radius: 50%; 
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto; 
+    object-fit: cover; 
+}
+.registration-form{
+    background-image: url('purple-tools-flatlay.jpg');
+    background-size: cover;
+    text-align: center;
+    opacity: .9;
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    */
+}
+.registration-form h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+.registration-form p{
+    font-size: 20px;
+    margin: 15px;
+}
+.registration-form input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+}
+.registration-form button{
+    font-size: 18px;
+    margin: 20px 0;
+    font-weight: bold;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+}
+.registration-form button:hover{
+    color: purple;
+}
+
+.content{
+    text-decoration: none;
+    font-size: 19px;
+    letter-spacing: 2px;
+    background-color: deepskyblue;
+    color: black;
+}
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+}
+.row{
+    width: 100%;
+    padding: 0px 80px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    position: relative;
+    z-index: 1;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    background-color: dimgray;
+}
+.content{
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content h1{
+    font-size: 45px;
+    font-weight: 400;
+    color: black;
+}
+.content h1{
+    font-size: 45px;
+    font-weight: 400;
+    color: black;
+}
+.rounded-image {
+    border-radius: 50%; /* Make the border radius equal to half of the image's width/height to create a circle */
+    width: 200px; /* Adjust the width and height as needed */
+    height: 200px;
+    display: block; /* Ensure proper display */
+    margin: 0 auto; /* Center horizontally */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+.content p{
+    font-size: 16px;
+    color: black;
+}
+#about h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.about h2{
+font-size: 18px; 
+line-height: 1.5;
+margin-bottom: 20px;
+padding: 20px;
+background-color: darksalmon; 
+}
+.about p{
+    margin: auto;
+    padding: 45px;
+}
+.projects {
+    background-color: darksalmon;
+    padding: 40px;
+}
+#projects h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+.project-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-images img {
+    margin: 10px;
+    border-radius: 5px;
+}
+#contact{
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+#contact h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.contact p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: black;
+}
